@@ -7,3 +7,20 @@
 # If you need a refresher on the rules of Rock, Paper, Scissors: https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors
 
 p "Please choose rock, paper, or scissors:"
+value=gets.chomp
+if value=="rock"
+  p "You played rock!"
+elsif value=="paper"
+  p "You played paper!"
+elsif value=="scissors" 
+  p "You played scissors!"
+end
+p "The computer played scissors!"
+
+if value=="rock"
+  p "You won!"
+elsif value=="paper"
+  p "You lost!"
+elsif value=="scissors" 
+  p "You tied!"
+end

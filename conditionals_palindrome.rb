@@ -16,3 +16,15 @@
 # true
 
 p "Enter one word"
+their_word=gets.chomp
+tw_r=their_word.reverse
+p their_word
+p tw_r
+
+if tw_r==their_word
+  p "true"
+else
+  p "false"
+end
+
+
